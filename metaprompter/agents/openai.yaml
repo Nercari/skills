@@ -1,0 +1,14 @@
+interface:
+  display_name: Metaprompter
+  short_description: Cria e adapta prompts multiplataforma
+  default_prompt: Use $metaprompter para melhorar este prompt e adaptá-lo ao destino
+    correto sem alterar seu objetivo.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
