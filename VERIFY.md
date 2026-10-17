@@ -5,3 +5,11 @@ This file is the merge evidence for this repo. Generate the real steps with `cre
 ## Commands
 
 - (fill in: build, tests, and how to run the app like a user)
+
+## Essential check
+
+GREEN for a merge. Runs the metaprompter structure validator: frontmatter, references, links, eval cases. Offline.
+
+```bash
+python3 metaprompter/scripts/validate_metaprompter.py
+```
