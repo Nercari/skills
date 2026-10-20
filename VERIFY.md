@@ -12,4 +12,5 @@ GREEN for a merge. Runs the metaprompter structure validator: frontmatter, refer
 
 ```bash
 python3 metaprompter/scripts/validate_metaprompter.py
+python -m unittest tests.test_merge_gate -q
 ```
